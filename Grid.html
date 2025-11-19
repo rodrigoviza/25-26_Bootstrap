@@ -10,20 +10,19 @@
     Multiple screen sizes:
         xs: phones <768px wide
         sm: tablets >= 768px wide
-        md: small laptops >= 992-x wide
+        md: small laptops >= 992px wide
         lg: laptops/desktops >= 1200px wide
+
+        Place multiple size styles to mimic media queries
 -->
 <div class="container">
     <div class="row">
         <div class="col"><h1>One Col</h1></div>
     </div>
     <div class="row">
-        <div class="col-lg-6 col-sm-1" style="background-color: lightblue"><h1>two Cols</h1></div>
-        <div class="col-lg-6 col-sm-1" style="background-color: lightblue"><h1>two Cols</h1></div>
-    </div>
-    <div class="row">
-        <div class="col"><h1>Two Cols</h1></div>
-        <div class="col"><h1>Two Cols</h1></div>
+        <!-- Example of multiple size styles -->
+        <div class="col-lg-6 col-sm-1" style="background-color: lightblue;"><h1>Two Cols</h1></div>
+        <div class="col-lg-6 col-sm-11" style="background-color: lightgreen;"><h1>Two Cols</h1></div>
     </div>
     <div class="row">
         <div class="col"><h1>Three Cols</h1></div>
@@ -34,17 +33,18 @@
         <div class="col"><h1>Four Cols</h1></div>
         <div class="col"><h1>Four Cols</h1></div>
         <div class="col"><h1>Four Cols</h1></div>
-        <div class="col"><h1>FOur Cols</h1></div>
+        <div class="col"><h1>Four Cols</h1></div>
     </div>
     <div class="row">
-        <div class="col-2"><h1>left Sidebar</h1></div>
+        <div class="col-2"><h1>Left Sidebar</h1></div>
         <div class="col-8"><h1>Content</h1></div>
         <div class="col-2"><h1>Right Sidebar</h1></div>
     </div>
+
     <div class="row">
         <!-- Moving from horizontal to stacked -->
-        <div class="col-sm-6" style="background-color: lightblue"><h1>two Cols</h1></div>
-        <div class="col-sm-6" style="background-color: lightblue"><h1>two Cols</h1></div>
+        <div class="col-sm-6" style="background-color: lightblue;"><h1>Two Cols</h1></div>
+        <div class="col-sm-6" style="background-color: lightgreen;"><h1>Two Cols</h1></div>
     </div>
 
 </div>
