@@ -23,11 +23,45 @@
                 <li class="nav-item"><a class="nav-link" href="Skills.html">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal"
-                        data-bs-target="#myModal" >Login</button>
+                        data-bs-target="#myModal">Login</button>
+                <div class="modal fade" id="myModal">
+                    <!-- Modal dialog parts: Header, body-->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Login</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Body -->
+                            <div class="modal-body">
+                                <form action="#" method="GET">
+                                    <!-- Email Field-->
+                                    <div class="mb-3 mt-3">
+                                        <label class="form-label" for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                                    </div>
+                                    <!-- Password Field -->
+                                    <div class="mb-3 mt-3">
+                                        <label class="form-label" for="pwd">Password:</label>
+                                        <input type="password" name="pwd" id="pwd" placeholder="Enter Password" class="form-control">
+                                    </div>
+                                    <!-- Checkbox -->
+                                    <div class="mb-3 mt-3">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="remember" class="form-check-input"> Remember Me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </nav>
-    <
 
 
 </div>
